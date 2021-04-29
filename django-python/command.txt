@@ -1,0 +1,33 @@
+# jika ingin membuat projek
+--> django-admin startproject <nama projek>
+
+#jika ingin menjalankan server
+--> manage.py runserver
+
+# jika ingin membuat app baru di django folder
+--> manage.py startapp <nama app>
+
+      /----------------------------------------\
+     /						\
+    /						 \
+   /						  \
+  /						   \
+ /						    \
+/----------------------------------------------------\
+
+
+perintah untuk sinkronisasi data dengan data base
+-> python manage.py migrate
+
+perintah untuk membuat superuser admin di django
+-> python manage.py createsuperuser  
+
+
+
+
+
+
+
+
+
+

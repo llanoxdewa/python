@@ -1,0 +1,8 @@
+nama  	: llano kusuma dewa
+kelas 	: 11 elektro 1
+jurusan : Elektronika Industri
+
+nama 	: bambang trisula
+kelas 	: 11 kimia 1
+jurusan : Kimia industri
+

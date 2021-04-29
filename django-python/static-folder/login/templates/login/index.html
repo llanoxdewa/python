@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome to the web programing</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		function move_page(url){
+			window.location = url;
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="{% static fileCss%}">
+</head>
+<body style="background:url('{% static fileG %}') no-repeat fixed;background-size:cover;">
+	<div class="kotak-login-luar">
+		<div class="kotak-login-dalam">
+			<label for="username-input">masukan username</label>
+			<input type="text" id="username-input" placeholder="your username">
+			<br><br>
+			<label for="username-input">masukan password</label>
+			<input type="password" id="password-input" placeholder="your password">
+			<button type="button" onclick="move_page('/blog')">submmit</button>
+		</div>
+	</div>
+</body>
+</html>

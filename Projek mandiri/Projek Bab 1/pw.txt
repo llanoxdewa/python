@@ -1,0 +1,12 @@
+#account email
+username llanoxdewo@gmail.com
+password Lynux123
+#account facebook
+username llanoxdewa@gmail.com
+password Qwerty321Go
+#account FF
+username llanoggyc
+password gameburiq
+#account soal python
+username llanokusumadewa
+password llano123

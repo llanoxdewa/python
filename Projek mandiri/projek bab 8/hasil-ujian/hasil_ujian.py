@@ -1,0 +1,1 @@
+hasil = {'llano': 'nama llano\nkelas 1\njurusan elektro\nnilai 60\n'}

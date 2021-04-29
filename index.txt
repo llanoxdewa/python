@@ -1,0 +1,75 @@
+ Volume in drive D is Data
+ Volume Serial Number is C0B3-FF05
+
+ Directory of D:\llano\python
+
+06/01/2021  19:28    <DIR>          .
+06/01/2021  19:28    <DIR>          ..
+15/10/2020  20:39    <DIR>          abstrakclass
+08/08/2020  09:05    <DIR>          casting tipe data
+09/10/2020  20:35    <DIR>          classandobjek
+10/10/2020  20:15    <DIR>          defaultPBC
+06/01/2021  19:28                 0 index.txt
+13/10/2020  18:19    <DIR>          inharitance
+27/11/2020  12:17               363 jadwal.txt
+06/10/2020  13:57    <DIR>          list python
+17/10/2020  12:34    <DIR>          manipulasiString
+11/10/2020  20:12    <DIR>          overloading
+21/12/2020  10:33    <DIR>          Projek mandiri
+05/11/2020  18:43    <DIR>          projek_speak_python
+10/09/2020  16:06    <DIR>          pyhton oop #17
+31/08/2020  15:41    <DIR>          pyhton oop static menthod
+07/10/2020  17:51    <DIR>          python
+21/08/2020  20:58    <DIR>          python cara membuat construktor
+16/08/2020  20:13    <DIR>          python cara membuat string
+07/08/2020  19:59    <DIR>          python cara membuat variabel
+22/08/2020  20:05    <DIR>          python class dan instance variabel
+01/10/2020  13:56    <DIR>          python for and while
+07/10/2020  17:54    <DIR>          python function2
+06/10/2020  19:58    <DIR>          python fungsi
+08/08/2020  11:12    <DIR>          python input dari user
+06/10/2020  21:51    <DIR>          python iterable
+13/08/2020  16:14    <DIR>          python latihan logika dan komparasi
+26/08/2020  19:52    <DIR>          python latihan OOP sederhana
+09/08/2020  19:48    <DIR>          python membuat perhitungan sederhana
+24/08/2020  19:46    <DIR>          python method
+06/09/2020  20:47    <DIR>          python oop #13
+08/09/2020  20:37    <DIR>          python oop #15
+09/09/2020  15:31    <DIR>          python oop #16
+11/09/2020  20:16    <DIR>          python oop #18
+14/09/2020  17:16    <DIR>          python oop #19
+14/09/2020  17:11    <DIR>          python oop #20
+31/08/2020  14:54    <DIR>          python oop casting Encapsulasi
+21/08/2020  20:40    <DIR>          python OOP ep 3
+02/09/2020  15:09    <DIR>          python oop getter and setter season dua
+03/09/2020  15:11    <DIR>          python oop latihan
+07/09/2020  21:16    <DIR>          python oop OM
+27/08/2020  20:01    <DIR>          python OOP private variabel
+08/08/2020  11:41    <DIR>          python operasi aritmatika
+15/08/2020  14:08    <DIR>          python operasi assigment
+15/08/2020  13:19    <DIR>          python operasi bitwyse
+16/08/2020  20:52    <DIR>          python operasi dan manipulasi string
+10/08/2020  14:08    <DIR>          python operasi komparasi
+11/08/2020  20:16    <DIR>          python operasi logika
+08/08/2020  08:24    <DIR>          python tipe data
+27/08/2020  19:08    <DIR>          python tkinter
+07/08/2020  19:36    <DIR>          python1
+09/10/2020  19:44    <DIR>          pythonCLASS
+09/10/2020  10:46    <DIR>          pythonENCAPSULASI
+08/10/2020  18:25    <DIR>          pythonEXCEPTION
+06/01/2021  14:50    <DIR>          pythonFromIndonesiaBelajar
+07/10/2020  19:58    <DIR>          pythonICG
+15/09/2020  16:56    <DIR>          pythonoop#21
+07/10/2020  20:57    <DIR>          pythonPUSA
+05/11/2020  20:59    <DIR>          python_tts
+05/09/2020  19:48    <DIR>          pytthon oop #12
+04/01/2021  20:36    <DIR>          rankpython
+14/10/2020  20:16    <DIR>          scopenamespacemodule
+26/08/2020  08:37             8.648 Scr code program speak.docx
+22/10/2020  20:33    <DIR>          singlellingkedlist
+17/10/2020  18:13    <DIR>          singlylinkedlist
+09/11/2020  09:33    <DIR>          snake_python
+19/10/2020  20:15    <DIR>          tuple
+21/10/2020  20:14    <DIR>          variabel
+               3 File(s)          9.011 bytes
+              65 Dir(s)  52.253.593.600 bytes free

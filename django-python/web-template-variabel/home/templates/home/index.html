@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ judul }} | MyWeb4</title>
+    <style type="text/css">
+        .header h1 {
+            text-transform:uppercase;
+            color:red;
+        }
+        .header {
+            width:100%;
+            height:100px;
+            border:2px solid black;
+            position:fixed;
+            z-index:9999;
+            display:flex;
+            justify-content:center;
+            background-color:rgba(0,0,255,50%);
+        }
+        body {
+            height:1000px;
+            margin:0;
+        }
+        .pembatas {
+            width:100%;
+            height:100px;
+        }
+
+
+        .berita {
+            width:100px;
+            height:50px;
+            background-color:lightgreen;
+            display:table;
+            margin:auto;
+            text-align:center;
+            line-height:50px;
+            float:left;
+            margin-right:3px;
+        }
+
+
+        .container {
+            display:table;
+            margin:auto;
+
+        }
+        a {
+            text-decoration:none;
+            font-size:20px;
+            color:white;
+        }
+        .artikel p {
+            font-style:monospace;
+            letter-spacing:2px;
+            text-align:justify;
+        }
+        .berita:hover {
+            border:4px solid grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="pembatas">
+        <div class="header">
+            <h1>{{ header }}</h1>
+        </div>
+    </div>
+    <br>
+    <div class="sambutan">
+        <div class="artikel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="berita">
+            <a href="berita/">Berita</a>
+        </div>
+    </div>
+    <div class="artikel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</body>
+</html>

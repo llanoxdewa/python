@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }} | home | MyWeb5</title>
+    <style type="text/css">
+        h1 {
+            text-align:center;
+            color:grey;
+        }
+        .data {
+            margin:auto;
+            display:table;
+            padding:10px;
+            border:2px solid black;
+        }
+        .data p {
+            font-size:120%;
+            text-align:left;
+            font-family:fantasy;
+        }
+    </style>
+</head>
+<body>
+    <h1>tentang pembuat</h1>
+    <br><br><br>
+    <div class="data">
+        <p>nama : {{ nama }}</p>
+        <p>sekolah : {{ sekolah }}</p>
+        <p>umur : {{ umur }}</p>
+    </div>
+    <br><br>
+    <ul>
+        {# fungsi for #}
+        {% for i,name in nav%}
+
+            <li>{{ i }} - {{ name }}</li>
+
+        {% endfor %}
+    </ul>
+</body>
+</html>

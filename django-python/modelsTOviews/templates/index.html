@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <style type="text/css">
+        span {
+            font-style:italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ header }}</h1>
+    {% for post in Posts %}
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.body }}</p>
+        <p><strong>{{ post.email }}</strong></p>
+        <p><span>{{ post.alamat }}</span></p>
+        <p>time : {{ post.waktu_posting }}</p>
+        <br><br>
+    {% endfor %}
+</body>
+</html>

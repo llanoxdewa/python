@@ -1,0 +1,14 @@
+(di python)     <di database>  <argumen>
+CharField       = VARCHAR       (blank=True/False,max_length=value)
+TextField       = TEXT
+EmailFeild      = EmailField    (default='nama@gmail.com')
+DateTimeField   = Datetime      (auto_now_add=True/False)
+
+=== contoh ===
+CharField(max_length=20,blank=True,null=True)
+
+
+
+
+
+

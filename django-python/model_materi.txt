@@ -1,0 +1,19 @@
+model pada python berupa class di django
+
+data base berbentuk tabel 
+
+data base yang bisa digunakan di django
+-> SQLite
+-> MySQL
+-> PostgreSQL
+-> ORACLE
+
+
+
+
+
+
+
+
+
+

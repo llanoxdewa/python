@@ -1,0 +1,10 @@
+.jumbotron {
+    background:url('/static/home/img/pemandangan-laut-es.png') no-repeat fixed;
+    background-size:cover;
+    height:300px;
+}
+
+.col-sm-4 h1 {
+    text-align:center;
+    text-transform:uppercase;
+}

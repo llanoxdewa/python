@@ -1,0 +1,5 @@
+nama	: llano kusuma dewa
+nilai	: 100
+
+nama	: bambang trisula
+nilai	: 90

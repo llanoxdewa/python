@@ -1,0 +1,63 @@
+ Volume in drive D is Data
+ Volume Serial Number is C0B3-FF05
+
+ Directory of D:\llano\python\pythonFromIndonesiaBelajar
+
+07/01/2021  11:17    <DIR>          .
+07/01/2021  11:17    <DIR>          ..
+26/10/2020  20:51               827 chainedfunctioncall.py
+21/12/2020  21:21               605 comprehension.py
+05/11/2020  14:24               574 costum key pada sorted.py
+30/10/2020  21:21               264 count.py
+31/12/2020  20:55             1.551 data set python.py
+24/12/2020  12:11             3.920 Dictionary on python.py
+28/10/2020  18:39               292 don'tcare.py
+02/11/2020  15:43               173 Dplaceholder.py
+02/11/2020  15:06               853 else.py
+24/10/2020  20:30               376 fordenganzip.py
+21/10/2020  21:07               142 forloop.py
+21/10/2020  21:24               317 forloopE.py
+05/11/2020  16:29               689 function call.py
+09/11/2020  21:23               236 function overloading.py
+24/11/2020  21:04               447 fungsi random.py
+05/11/2020  16:24               110 gabunglist.py
+29/10/2020  20:33               419 GBLDZ.py
+31/10/2020  21:05               461 in.py
+26/10/2020  20:27               102 join.py
+30/12/2020  11:29            44.278 kelas karakter pada regex di python..JPG
+29/10/2020  20:13               254 kembalian.py
+05/11/2020  15:40               376 keyword argumen dan positional argumen.py
+07/01/2021  11:17               181 lamda.py
+07/01/2021  11:17                 0 llano.txt
+20/10/2020  22:20               529 main.py
+26/12/2020  21:35             2.502 manipulating string.py
+27/11/2020  12:51             1.692 map.py
+24/10/2020  20:33               353 mapdancomprehension.py
+31/10/2020  20:56               468 margingdictionary.py
+05/11/2020  14:42               134 multiple assigment.py
+07/01/2021  10:47                17 mydata.bak
+07/01/2021  10:47                69 mydata.dat
+07/01/2021  10:47                17 mydata.dir
+07/01/2021  11:04             4.462 os module.py
+21/10/2020  20:45               143 packing.py
+24/10/2020  21:20               144 pembalikan.py
+21/10/2020  20:37               263 perbandingan.py
+08/10/2020  18:29               298 python try and exception.py
+05/01/2021  12:00             7.755 regex ekspresion.py
+07/11/2020  19:29             1.486 resources.py
+24/10/2020  20:55               174 slicing.py
+16/11/2020  16:37               402 sort vs sorted.py
+31/12/2020  20:21               237 sorted.py
+17/12/2020  21:33               261 splitingstring.py
+05/11/2020  15:42    <DIR>          src
+25/12/2020  15:32               561 strformating.py
+16/12/2020  21:18               845 string ascii.py
+17/12/2020  21:20               352 string chained berantai.py
+27/10/2020  16:31               374 switchcase.py
+16/12/2020  20:44               301 ternaryExpresion.py
+03/11/2020  21:40               669 translationtable.py
+13/11/2020  21:12               227 tuple.py
+21/10/2020  21:01               155 unpacking.py
+29/10/2020  20:51               245 unzip.py
+              53 File(s)         82.582 bytes
+               3 Dir(s)  52.268.154.880 bytes free

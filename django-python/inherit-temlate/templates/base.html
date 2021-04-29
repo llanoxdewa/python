@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }} | MyWeb8</title>
+    <!-- untuk mengiclude file html dari luar -->
+    {% include "snippets/style.html" %}
+    {% include "snippets/js.html" %}
+</head>
+<body>
+    {% block navbar %}
+    {% endblock navbar %}
+    {% block other %}
+    {% endblock other %}
+    {% include "snippets/floor.html" %}
+</body>
+</html>
+
+
