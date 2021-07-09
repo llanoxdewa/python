@@ -1,0 +1,8 @@
+
+// attribute pada choices
+choice.tag ( jenis tag / type pada radio )
+choice.id_for_label ( id yang ada pada input )
+choice.choice_label ( label yang pada input )
+
+
+

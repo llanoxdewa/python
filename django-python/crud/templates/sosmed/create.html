@@ -1,0 +1,31 @@
+{% extends "base_template/index.html" %}
+
+
+{% block contents %}
+    {% if update %}
+        <h1 class="text-center">update data pada akun anda</h1>
+    {% else %}
+        <h1 class="text-center">silahkan buat akun anda</h1>
+    {% endif %}
+    <form method="POST" >
+        {% csrf_token %}
+        {% for data in form_instagram %}
+            <div class="form-group">
+                {{ data.label }}
+                {{ data }}
+                {% if data.label == "Email Address" or data.label == "Password" %}
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                {% endif %}
+            </div>
+        {% endfor %}
+        <button class="btn btn-primary">kirim</button>
+    </form>
+{% endblock contents %}
+
+
+
+
+
+
+
+

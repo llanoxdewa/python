@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }} | web</title>
+</head>
+<body>
+<ul>
+    <li><a href="{% url 'home:index' %}">home</a></li>
+    <li><a href="{% url 'blog:index' %}">blog</a></li>
+    <li><a href="{% url 'blog:create' %}">create</a></li>
+</ul>
+{% block content %}
+{% endblock content %}
+</body>
+</html>

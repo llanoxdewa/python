@@ -1,0 +1,2 @@
+1. migrasi dari form ke ModelForm
+2. membuat model form validator

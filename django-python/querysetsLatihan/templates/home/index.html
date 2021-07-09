@@ -1,0 +1,42 @@
+{% extends 'base/index.html' %}
+{% block body %}
+    <h1>selamat datang di home</h1>
+    <ul type="square">
+        <li><a href="/elektro">elektro</a></li>
+        <li><a href="/las">las</a></li>
+        <li><a href="/kimia">kimia</a></li>
+        <li><a href="/">all</a></li>
+    </ul>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>username</th>
+                <th>email</th>
+                <th>jurusan</th>
+                <th>umur</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data_reg in data_registers %}
+                <tr>
+                    <td>{{data_reg.id}}</td>
+                    <td>{{data_reg.username}}</td>
+                    <td>{{data_reg.email}}</td>
+                    <td>{{data_reg.jurusan}}</td>
+                    <td>{{data_reg.umur}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock body %}
+
+
+
+
+
+
+
+
+
+

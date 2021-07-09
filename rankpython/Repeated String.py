@@ -16,12 +16,12 @@ n = 10
 # 		return kata.count('a')
 
 # cara dari indonesia belajar
-# def count_huruf(kata,n):
-# 	pos = [n for n,x in enumerate(kata) if x == 'a']
-# 	res = len(pos) * (n//len(kata))
-# 	sisa = n%len(kata)
-# 	res += len([x for x in pos if x<sisa])
-# 	return res
+ def count_huruf(kata,n):
+ 	pos = [n for n,x in enumerate(kata) if x == 'a']
+ 	res = len(pos) * (n//len(kata))
+ 	sisa = n%len(kata)
+ 	res += len([x for x in pos if x<sisa])
+ 	return res
 print(count_huruf(kata,n))
 
 

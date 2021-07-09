@@ -1,0 +1,41 @@
+
+@membuat data
+<nama_model>.objects.create({nama kolom}="value")
+
+@menghapus data
+objek = <nama_model>.objects.all()[index].delete()
+
+@mengubah data
+data = <nama_model>.objects.all[index]
+data.{ kolom } = "nilai perubahan"
+data.save()
+
+@get
+<nama_model>.objects.get({nama kolom}="value")
+<nama_model>.objects.get({nama kolom}__iexact="value")
+
+
+@filter
+# akan mengembalikan multiple object / array
+<nama_model>.objects.filter({nama kolom}="value")
+
+@exclude
+# akan mengembalikan multiple object / array dengan
+# element kecuali yang tidak diperlukan
+<nama_model>.objects.exclude({nama kolom}="value")
+
+
+@order_by
+<nama_model>.objects.order_by("value")
+#jika kebalik
+<nama_model>.objects.order_by("-value")
+
+
+@mengubah menjadi dict / list / array
+<nama_model>.objects.all().values({kolom})
+<nama_model>.objects.all().values_list({kolom})
+
+
+
+
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ judul }}</title>
+</head>
+<body>
+    <h1>this is {{ judul }} page</h1>
+    <ul>
+        <li><a href="{% url 'blog:index' %}">blog</a></li>
+        <li><a href="{% url 'home:index' %}">home</a></li>
+        <li><a href="{% url 'blog:single' %}">single</a></li>
+        <li><a href="{% url 'blog:category' %}">category</a></li>
+        <li><a href="{% url 'blog:inputan' input='wkww land' %}">input</a></li>
+    </ul>
+</body>
+</html>

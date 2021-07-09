@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jnck</title>
+</head>
+<body>
+    {% block body %}
+        <ul>
+            {% for slug in slugs %}
+                <li><a href="post/{{ slug }}">{{ slug }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endblock body %}
+</body>
+</html>

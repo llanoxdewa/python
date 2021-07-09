@@ -1,0 +1,28 @@
+{% extends 'base_template/index.html' %}
+
+{% block content %}
+    {% if error_message %}
+        <h1 style="color:red;">{{ error_message }}</h1>
+    {% endif %}
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            {{ post_form.as_table }}
+        </table>
+        <button type="submit">kirim</button>
+    </form>
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

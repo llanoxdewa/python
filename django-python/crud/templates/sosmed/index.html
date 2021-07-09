@@ -1,0 +1,53 @@
+{% extends "base_template/index.html" %}
+
+{% block contents %}
+<br><br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">username</th>
+      <th scope="col">email</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      {% if remove_data %}
+        <th>Hapus</th>
+      {% elif update_data %}
+        <th>Update</th>
+      {% endif %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for data_user in instagram_data %}
+        <tr>
+          <th scope="row">{{ forloop.counter }}</th>
+          <th>{{ data_user.username }}</th>
+          <td>{{ data_user.email }}</td>
+          <td>{{ data_user.nama_depan }}</td>
+          <td>{{ data_user.nama_belakang }}</td>
+          {% if remove_data %}
+            <td><a class="btn btn-danger" href="{% url 'sosmed:delete' data_user.id %}">hapus</a></td>
+          {% elif update_data %}
+            <td><a class="btn btn-warning" href="{% url 'sosmed:update' data_user.id %}">update</a></td>
+          {% endif %}
+        </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<br>
+<a class="btn btn-primary" href="{% url 'sosmed:create' %}">Tambah data</a>
+<a class="btn btn-primary" href="{% url 'sosmed:delete_page' %}">hapus data</a>
+<a class="btn btn-primary" href="{% url 'sosmed:update_page' %}">update data</a>
+{% endblock contents %}
+
+
+
+
+
+
+
+
+
+
+
+

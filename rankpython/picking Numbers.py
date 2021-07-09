@@ -3,7 +3,7 @@ import math
 sampel = [4,6,5,3,3,1]
 # sampel output
 
-# cara mandiri men
+# cara mandiri
 # def cara(sampel):
 # 	for bil in sampel:
 # 		if abs(bil-min(sampel))>1:

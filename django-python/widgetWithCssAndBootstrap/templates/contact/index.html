@@ -1,0 +1,42 @@
+{% extends "base_template/index.html" %}
+{% block body %}
+    <h1 class="text-center">{{ title }}</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            {{contact_form.nama.label_tag}}
+            {{contact_form.nama}}
+        </div>
+        <div class="form-group">
+            {{contact_form.gender.label_tag}}
+            {{contact_form.gender}}
+<!--             {% for choice in contact_form.gender %}
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="{{choice.id_for_label}}" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" for="{{choice.id_for_label}}">{{choice.choice_label}}</label>
+                </div>
+            {% endfor %} -->
+        </div>
+        <div class="form-group">
+            {{contact_form.umur.label_tag}}
+            {{contact_form.umur}}
+        </div>
+        <div class="form-group">
+            {{contact_form.tanggal_lahir.label_tag}}
+            {{contact_form.tanggal_lahir}}
+        </div>
+        <div class="form-group">
+            {{contact_form.alamat.label_tag}}
+            {{ contact_form.alamat }}
+        </div>
+        <button class="btn btn-primary" type="submit" id="tombol" value="valid" >kirim</button>
+    </form>
+    <br><br><br>
+    <div class="container">
+        <p>tombol: {{data_user.tombol}}</p>
+        <p>nama: {{data_user.nama_lengkap}}</p>
+        <p>umur: {{data_user.umur}}</p>
+        <p>gender: {{data_user.gender}}</p>
+        <p>tanggal lahir : {{data_user.tanggal_lahir.tanggal}} / {{data_user.tanggal_lahir.bulan}} / {{data_user.tanggal_lahir.tahun}}</p>
+    </div>
+{% endblock body %}

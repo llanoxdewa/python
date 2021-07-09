@@ -1,0 +1,69 @@
+
+* {
+    margin:0;
+}
+
+body {
+    background:url('/static/home/img/bgkeren.jpg') no-repeat fixed;
+    background-size:cover;
+}
+
+
+.topbar {
+    width:100%;
+    height:100px;
+    background-color:rgba(0,0,255,50%);
+    text-align:center;
+    line-height:100px;
+    color:white;
+}
+
+
+.pilihan {
+    display:table;
+    margin:100px auto;
+}
+
+.login {
+    width:100px;
+    height:50px;
+    border:2px solid white;
+    line-height:50px;
+    text-align:center;
+    font-size:20px;
+    float:left;
+    margin-right:10px;
+    color:white;
+    transition:0.5s;
+}
+
+
+.blog {
+    width:100px;
+    height:50px;
+    border:2px solid white;
+    line-height:50px;
+    text-align:center;
+    font-size:20px;
+    float:left;
+    color:white;
+    transition:0.1s;
+}
+
+/* efek efek kece */
+.login:hover,.blog:hover {
+    box-shadow:0px 0px 20px white;
+    border:5px solid white;
+    cursor:pointer;
+}
+
+
+.keren{
+    background:linear-gradient(90deg,red,green,yellow,blue);
+    width:100%;
+    height:20px;
+    position:absolute;
+    bottom:0;
+    opacity:50%;
+}
+

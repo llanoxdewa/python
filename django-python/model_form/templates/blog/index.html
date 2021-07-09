@@ -1,0 +1,20 @@
+{% extends 'base_template/index.html' %}
+
+{% block content%}
+<h1>selamat datang di {{ title }}</h1>
+
+<!-- menampilkan data -->
+{% for data in data_post_model %}
+    <h1>judul: {{ data.judul }}</h1>
+    <h3>body: {{ data.body }}</h3>
+    <h4>category: {{ data.category }}</h4>
+    <br>
+{% endfor %}
+{% endblock content%}
+
+
+
+
+
+
+

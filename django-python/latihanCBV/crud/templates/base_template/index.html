@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    {% include "base_template/snippets/style.html" %}
+</head>
+<body>
+{% include "base_template/snippets/navbar.html" %}
+<div class="container">
+{% block contents %}
+
+{% endblock contents %}
+</div>
+{% include "base_template/snippets/script.html" %}
+</body>
+</html>

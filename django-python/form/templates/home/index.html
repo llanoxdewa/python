@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ heading }}</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            {{ login_form.as_table }}
+        </table>
+        <button type="submit">login</button>
+    </form>
+    {% if data.username == "llano" and data.password == "llano123" %}
+        <h1 style="color:green;">login berhasil</h1>
+        <button type="button" id="button-to-contact">contact</button>
+    {% else %}
+        <h1 style="color:red;">username / password salah</h1>
+    {% endif %}
+    <a href="{% url 'contact:index' %}">hello</a>
+<script type="text/javascript" src="{% static file_js %}"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static css_file %}">
+</head>
+<body>
+    <div class="topbar">
+        <h1>selamat datang di blog</h1>
+    </div>
+
+    <div class="tulisan-kece">silahkan melihat projek yang pernah dibuat</div>
+
+    <div class="kotak-pilihan">
+        <div class="program-lampu-merah">keren</div>
+        <div class="program-lain">program lain</div>
+    </div>
+
+
+<script type="text/javascript" src="{% static js_file %}"></script>
+</body>
+</html>

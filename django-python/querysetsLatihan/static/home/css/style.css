@@ -1,0 +1,31 @@
+
+
+h1 {
+    text-align:center;
+    text-transform: uppercase;
+}
+
+
+
+table {
+    margin:50px auto;
+}
+
+table thead th {
+    text-transform: uppercase;
+    background-color:lightgreen;
+    text-align: center;
+}
+
+table thead th,tbody td{
+    text-align: center;
+    padding:10px;
+    font-size:120%;
+}
+
+table thead tr:hover,tbody tr:hover {
+    background-color:lightgrey;
+}
+
+
+

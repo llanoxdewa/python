@@ -1,0 +1,31 @@
+{% extends "base_template/index.html" %}
+
+{% block contents %}
+<form method="POST">
+    {% if error_message %}
+        <div class="alert alert-danger" role="alert">
+            <p>{{ error_message }}</p>
+        </div>
+        <br><br>
+    {% endif %}
+    {% csrf_token %}
+    <div class="form-group">
+        {% for form in form_model %}
+            <div class="form-group">
+                {{ form.label }}
+                {{ form }}
+            </div>
+        {% endfor %}
+    </div>
+    <button style="margin-right:900px;margin-top:20px;" type="submit" class="btn btn-primary">kirim</button>
+</form>
+{% endblock contents %}
+
+
+
+
+
+
+
+
+

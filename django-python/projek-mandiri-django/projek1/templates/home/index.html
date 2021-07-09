@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ judul }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static css_file %}">
+</head>
+<body>
+    <div class="topbar">
+        <h1>selamat datang di projek web dengan framework django</h1>
+    </div>
+    <div class="pilihan">
+        <div class="login"><p>login</p></div>
+        <div class="blog"><p>blog</p></div>
+    </div>
+    <div class="keren"></div>
+<script type="text/javascript" src="{% static js_file %}"></script>
+</body>
+</html>

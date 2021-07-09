@@ -1,0 +1,11 @@
+{% extends 'base_template/index.html' %}
+
+{% block contents %}
+    <h2>author: {{ data_post.author }}</h2>
+    <h1 class="text-center font-weight-bold">{{ data_post.judul }}</h1>
+    <h3 class="text-justify">{{ data_post.body }}</h3>
+    <h3>category: {{ data_post.category }}</h3>
+{% endblock contents %}
+
+
+

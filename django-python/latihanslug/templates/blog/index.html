@@ -1,0 +1,23 @@
+{% extends "base/index.html "%}
+{% block body %}
+{% if singlePost %}
+<div class="single-post">
+    <h1>{{ post.judul }}</h1>
+    <p>{{ post.publish_time }}</p>
+    <p id="isi">{{ post.body }}</p>
+    <p id="category">category: {{ post.category }}</p>
+</div>
+{% elif all %}
+{% for post in posts %}
+    <a href="{% url 'blog:single_post' post.slug %}"><h1>{{ post.judul }}</h1></a>
+    <p>{{ post.publish_time }}</p>
+    <p>{{post.body|truncatechars:200}}</p>
+{% endfor %}
+{% elif categoryPost %}
+    {% for post in posts %}
+        <a href="{% url 'blog:single_post' post.slug  %}"><h1>{{ post.judul }}</h1></a>
+        <p>{{ post.publish_time }}</p>
+        <p>{{post.body|truncatechars:200}}</p>
+    {% endfor %}
+{% endif %}
+{% endblock body %}

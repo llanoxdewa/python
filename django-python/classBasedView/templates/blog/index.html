@@ -1,0 +1,8 @@
+{% extends "base_template/index.html" %}
+{% block contents %}
+<h1>selamat datang di {{ title }} page</h1>
+<form method="POST">
+    {% csrf_token %}
+    <button type="submit">GO</button>
+</form>
+{% endblock contents %}

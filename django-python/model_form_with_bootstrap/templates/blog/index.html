@@ -1,0 +1,28 @@
+{% extends "base_template/index.html" %}
+
+{% block contents %}
+    <h1 class="text-center">selamat datang di {{ title }}</h1>
+    <br><br><br>
+    <div class="jumbotron bg-white">
+        {% for data in data_base %}
+            <a href="{% url 'blog:single_post' data.slug %}">
+            <div id="data" class="container text-left shadow-lg p-3 mb-5 bg-white rounded">
+                <h2>author: {{ data.author }}</h2>
+                <h2>judul: {{ data.judul }}</h2>
+                <h2>{{ data.body|truncatechars:200 }}</h2>
+                <h2>category: {{ data.category }}</h2>
+                <br>
+            </div>
+            </a>
+        {% endfor %}
+    </div>
+{% endblock contents %}
+
+
+
+
+
+
+
+
+

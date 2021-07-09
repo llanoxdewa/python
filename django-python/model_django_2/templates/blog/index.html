@@ -1,0 +1,28 @@
+{% extends 'base_file_page/index.html' %}
+{% block body %}
+    <h1>selamat datang di blog</h1>
+
+    <table border="1" cellspacing="0" cellpadding="10">
+       <thead>
+            <tr>
+                <th>Id</th>
+                <th>username</th>
+                <th>password</th>
+                <th>email</th>
+                <th>waktu</th>
+            </tr>
+       </thead>
+       <tbody>
+            {% for data_reg in data_registers %}
+                <tr>
+                    <td>{{data_reg.id}}</td>
+                    <td>{{data_reg.username}}</td>
+                    <td>{{data_reg.password}}</td>
+                    <td>{{data_reg.email}}</td>
+                    <td>{{data_reg.time}}</td>
+                </tr>
+            {% endfor %}
+       </tbody>
+    </table>
+
+{% endblock body %}

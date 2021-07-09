@@ -16,24 +16,24 @@ tujuanHalaman = 4
 
 # 	return jumlahHd if jumlahHd < jumlahHb else jumlahHb
 
-## cara ke-2 dari chanel indonesia belajar
-# def hitungHalaman(book,tujuanHalaman):
-# 	n = len(book)
-# 	front = tujuanHalaman // 2
-# 	back = abs((n-tujuanHalaman))//2
-# 	if tujuanHalaman % 2 != 0 and n-tujuanHalaman == 1:
-# 		back += 1
-# 	if back < front:
-# 		return back
-# 	return front
+# cara ke-2 dari chanel indonesia belajar
+ def hitungHalaman(book,tujuanHalaman):
+ 	n = len(book)
+ 	front = tujuanHalaman // 2
+ 	back = abs((n-tujuanHalaman))//2
+ 	if tujuanHalaman % 2 != 0 and n-tujuanHalaman == 1:
+ 		back += 1
+ 	if back < front:
+ 		return back
+ 	return front
 
 ## cara ke-3 menggunakan ternarry expression
-def hitungHalaman(book,tujuanHalaman):
-	n = len(book)
-	front = tujuanHalaman//2
-	back = abs((n-tujuanHalaman))//2 + (1 if tujuanHalaman%2!=0 and n-tujuanHalaman==1 else 0)
-	return back if back < front else front
-print(hitungHalaman(book,tujuanHalaman))
+#def hitungHalaman(book,tujuanHalaman):
+#	n = len(book)
+#	front = tujuanHalaman//2
+#	back = abs((n-tujuanHalaman))//2 + (1 if tujuanHalaman%2!=0 and n-tujuanHalaman==1 else 0)
+#	return back if back < front else front
+#print(hitungHalaman(book,tujuanHalaman))
 
 
 

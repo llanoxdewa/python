@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}} | myweb</title>
+    <link rel="stylesheet" type="text/css" href="{% static file_css %}">
+</head>
+<body>
+    {% block body %}
+    {% endblock body %}
+<!-- <script type="text/javascript" src="{% static file_js %}"></script> -->
+</body>
+</html>

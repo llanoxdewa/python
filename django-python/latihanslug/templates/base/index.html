@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }} | myweb</title>
+    <link rel="stylesheet" type="text/css" href="{% static file_css %}">
+    {% include "base/styles.html" %}
+</head>
+<body>
+    {% include "base/navbar.html" %}
+    <br><br><br><br>
+    <div class="container bg-light shadow mt-5">
+    {% block body %}
+    <!-- main body content -->
+    {% endblock body %}
+    </div>
+{% include "base/scripts.html" %}
+<!-- <script type="text/javascript" src="{% static file_js %}"></script> -->
+</body>
+</html>

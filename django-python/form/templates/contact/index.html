@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>contact app</title>
+</head>
+<body>
+    <h1>contact app</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            {{ contact_form.as_table }}
+        </table>
+        <button type="submit">kirim</button>
+    </form>
+    <p><a href="{% url 'home:index' %}">home</a></p>
+    {% if data.nama and data.email and data.gender and data.username %}
+        <h1>nama: {{ data.nama }}</h1>
+        <h1>email: {{ data.email }}</h1>
+        <h1>gender: {{ data.gender }}</h1>
+        <h1>username: {{ data.username }}</h1>
+    {% endif %}
+</body>
+</html>

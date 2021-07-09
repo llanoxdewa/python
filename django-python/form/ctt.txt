@@ -1,0 +1,54 @@
+// form field dan option
+
+IntegerField(required=False / True) = hanya bisa mengisi dengan integer / bilangan
+DecimalField() = menerima input desimal
+FloatField() = menerima input float
+BooleanField() = berupa cek box / hanya menerima input ya atau tidak
+
+# string input
+CharField() = untuk input berupa karakter
+EmailField() = akan mengecek apakah email valid / tidak
+SlugField()
+RegexField()
+URLField()
+GenericIPAddressField()
+
+# select input
+PILIHAN = (
+    ("nilai","pilihan")
+)
+~nilai yang akan ditangkap oleh form
+~pilihan yang akan ditampilkan oleh form
+ChoiceField(choices=PILIHAN)
+MultipleChoiceField(choices=PILIHAN)
+MultipleChoiceField(choices=PILIHAN)
+TypedMultipleChoiceField(choices=PILIHAN)
+NullBooleanField()
+
+# date time input
+DateField()
+DateTimeField()
+DurationField()
+TimeField()
+SplitDateTimeField()
+
+# file input
+FileField() = input file
+ImageField() = image file
+
+
+// option
+required = True / False
+-> jika false makan field tidak wajib diisi
+max_length = 10 to N
+label = "untuk nama input pada form nanti"
+
+
+
+
+
+
+
+
+
+

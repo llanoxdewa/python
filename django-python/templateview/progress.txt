@@ -1,0 +1,8 @@
+1. membuat redirect
+    > from django.views.generic import RedirectView
+    > Redirect.as_view(url='{url}')
+    > Redirect.as_view(pattern_name='<scope>:<name_space>')
+
+
+
+

@@ -1,0 +1,39 @@
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand " href="#">
+            <h1>Latihan Slug</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" style="margin-left:500px;">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin">admin</a>
+                </li>
+            </ul>
+        </div>
+        {% if categoryPost or all %}
+            <div class="dropdown flex">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                category
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                {% for category in categorys %}
+                    {% if category == "all" %}
+                        <a class="dropdown-item" href="{% url 'blog:index' %}">{{ category }}</a>
+                    {% else %}
+                        <a class="dropdown-item" href="{% url 'blog:category_post' category %}">{{ category }}</a>
+                    {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+        {% endif %}
+    </div>
+</nav>

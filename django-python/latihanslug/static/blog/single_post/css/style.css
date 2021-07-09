@@ -1,0 +1,25 @@
+.single-post {
+    text-align:justify;
+}
+
+.single-post h1 {
+    font-weight: bold;
+}
+
+.single-post #isi {
+    font-style: italic;
+}
+
+.single-post #isi {
+    font-family: monospace;
+}
+
+.single-post #category {
+    color:red;
+    font-style: underline;
+}
+
+
+
+
+
